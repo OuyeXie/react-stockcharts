@@ -55,13 +55,12 @@ class OHLCTooltip extends React.Component {
 				onClick={onClick}>
 				<ToolTipText x={0} y={0}
 					fontFamily={fontFamily} fontSize={fontSize}>
-					<ToolTipTSpanLabel key="label" x={0} dy="5">Date: </ToolTipTSpanLabel>
 					<tspan key="value">{displayDate}</tspan>
-					<ToolTipTSpanLabel key="label_O"> O: </ToolTipTSpanLabel><tspan key="value_O">{open}</tspan>
-					<ToolTipTSpanLabel key="label_H"> H: </ToolTipTSpanLabel><tspan key="value_H">{high}</tspan>
-					<ToolTipTSpanLabel key="label_L"> L: </ToolTipTSpanLabel><tspan key="value_L">{low}</tspan>
-					<ToolTipTSpanLabel key="label_C"> C: </ToolTipTSpanLabel><tspan key="value_C">{close}</tspan>
-					<ToolTipTSpanLabel key="label_Vol"> Vol: </ToolTipTSpanLabel><tspan key="value_Vol">{volume}</tspan>
+					<ToolTipTSpanLabel key="label_O"> 开: </ToolTipTSpanLabel><tspan key="value_O">{open}</tspan>
+					<ToolTipTSpanLabel key="label_H"> 高: </ToolTipTSpanLabel><tspan key="value_H">{high}</tspan>
+					<ToolTipTSpanLabel key="label_L"> 低: </ToolTipTSpanLabel><tspan key="value_L">{low}</tspan>
+					<ToolTipTSpanLabel key="label_C"> 收: </ToolTipTSpanLabel><tspan key="value_C">{close}</tspan>
+					<ToolTipTSpanLabel key="label_Vol"> 量: </ToolTipTSpanLabel><tspan key="value_Vol">{volume}</tspan>
 				</ToolTipText>
 			</g>
 		);
