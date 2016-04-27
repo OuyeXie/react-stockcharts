@@ -26,20 +26,20 @@ import * as Utils from "./lib/utils/utils";
 const version = "0.3.1";
 
 export default {
-	ChartCanvas,
-	Chart,
-	DataSeries,
-	EventCapture,
-	BackgroundText,
-	series,
-	coordinates,
-	indicator,
-	transforms,
-	axes,
-	tooltip,
-	helper,
-	interactive,
-	version,
-	Utils
+    ChartCanvas,
+    Chart,
+    DataSeries,
+    EventCapture,
+    BackgroundText,
+    series,
+    coordinates,
+    indicator,
+    transforms,
+    axes,
+    tooltip,
+    helper,
+    interactive,
+    version,
+    Utils
 };
 
